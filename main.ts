@@ -12,7 +12,7 @@ import { copyFileSync, existsSync, mkdirSync, readFileSync, statSync } from 'nod
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const ENTRY_SHA256 = '27151aae65b1723989a7e46d3af394632daac6791c4435bc9e754efb32de8142';
+const ENTRY_SHA256 = '0b588c044addd1452dec39e393fca3b3e4d3f4eaff10a10c020142af330ce605';
 const MAX_BYTES = 1024 * 1024;
 const MAX_DIM = 1024;
 const PNG_SIGNATURE = Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]);
