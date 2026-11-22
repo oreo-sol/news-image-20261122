@@ -8,8 +8,10 @@ Entry for [Sum up 22 November's world news in one image](https://make.fun/bounty
 
 One image summing up Sunday 22 November 2026: 30 dated stories across
 7 regions, 13 illustrated cards, a where-it-happened map, and a date check.
-Light grey monochrome broadsheet. All illustrations are drawn in code
-(Python PIL) — no AI image generator.
+Full-colour broadsheet in the 21 November entry's cover style: warm
+newsprint paper, red masthead kicker and red accents, a coloured region
+bar (one colour per region), and coloured illustrations. All illustrations
+are drawn in code (Python PIL) — no AI image generator.
 
 ## The day
 
@@ -21,7 +23,7 @@ the Perth Ashes Test in two days.
 
 ## Files
 
-- `entry.png` — the image, 1024×1024 RGB PNG (211,450 bytes)
+- `entry.png` — the image, 1024×1024 RGB PNG (222,899 bytes)
 - `main.ts` — validates entry.png (PNG signature, IEND chunk, ≤1 MiB,
   1024×1024 via IHDR, pinned sha256) and copies it to
   `$MAKEFUN_OUTPUT_DIR/entry.png`
